@@ -1,6 +1,11 @@
 .nav {
 	height: 10vh;
 	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 78vw;
+	margin-left: 11vw;
 
 	&__left {
 		display: flex;
@@ -8,7 +13,33 @@
 		align-items: center;
 	}
 
-	&__options {
-		font-size: 1.3rem;
+	&__right {
+		& span {
+			font-size: 0.7rem;
+			margin: 1rem;
+		}
 	}
+
+	&__options {
+		font-size: 0.7rem;
+
+		&-item {
+			margin: 1rem;
+			cursor: pointer;
+		}
+	}
+}
+
+.sale {
+	color: rgb(223, 3, 3);
+}
+
+.catagories {
+	color: rgb(10, 194, 123);
+}
+
+.nav__logo {
+	font-size: 1.4rem;
+	font-weight: 700;
+	align-self: flex-end;
 }
