@@ -1,0 +1,22 @@
+{
+	"name": "productpage",
+	"version": "1.0.0",
+	"description": "product page",
+	"main": "script.js",
+	"scripts": {
+		"start": "node-sass sass/main.scss css/style.css -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jrmeyers92/ProductPage.git"
+	},
+	"author": "Jake Meyers",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jrmeyers92/ProductPage/issues"
+	},
+	"homepage": "https://github.com/jrmeyers92/ProductPage#readme",
+	"devDependencies": {
+		"node-sass": "^4.14.1"
+	}
+}
