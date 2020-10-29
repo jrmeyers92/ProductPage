@@ -1,0 +1,15 @@
+.search {
+	display: flex;
+	align-items: center;
+
+	&__input {
+		border: none;
+		margin-left: 0.8rem;
+		height: 1.4rem;
+		margin-top: 0.2rem;
+	}
+
+	&__icon {
+		font-size: 1.1rem;
+	}
+}
