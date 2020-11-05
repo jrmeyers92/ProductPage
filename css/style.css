@@ -2,17 +2,42 @@ html,
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 62.5%; }
 
 body {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif; }
+
+.sections {
+  display: grid;
+  grid-template-columns: 2fr 5fr; }
+
+.cards {
+  grid-column: 0/7; }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .card__mfg {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem; }
+  .card__name {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 1rem; }
+  .card__price {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem; }
+  .card__button {
+    padding: 0.6rem 1.2rem;
+    background-color: #f9f8f6;
+    border-radius: 3px;
+    line-height: 1.8rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1); }
 
 .search {
   display: flex;
